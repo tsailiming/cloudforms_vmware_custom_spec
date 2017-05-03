@@ -4,7 +4,7 @@ The VM template is required to have open-vm-tools installed and enabled.
 
 How this works
 ===
-* As part of the Service Catalog Item, we define the basic information in the Request Info -> Customize -> Specification, such as domain name and DNS information. 
+* As part of the Service Catalog Item, we define the basic information in the Request Info -> Customize -> Specification, such as domain name and DNS information. You don't need to have a custom spec on vCenter.  
 * In the Service Dialog, the IP is provided using the `option_0_ip_addr` field name in the dialog.
 * Upon boot up, the vmtoolsd will start and configure the VM with the static IP.
 
